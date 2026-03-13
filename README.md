@@ -1,6 +1,6 @@
-# Salesforce Skill for Claude Code
+# Salesforce Skill for Claude Code & Cowork
 
-A Claude Code plugin for full Salesforce org interaction — authenticate, query data, create/update/delete records, execute Apex, manage metadata, upload/download files, and monitor org health.
+Claude Code and Cowork skill for Salesforce org interaction — authenticate, query, download and upload files.
 
 **Built-in safety:** Write operations require user confirmation. Delete operations show explicit warnings and require typed confirmation. Read operations execute freely. Set `SALESFORCE_SKIP_WARNINGS=true` to bypass all confirmations.
 
@@ -11,21 +11,21 @@ A Claude Code plugin for full Salesforce org interaction — authenticate, query
 In Claude Code, run:
 
 ```
-/plugin marketplace add enzoleonardi/claude-code-salesforce-skill
-/plugin install salesforce@enzoleonardi-claude-code-salesforce-skill
+/plugin marketplace add enzoleonardi/claude-salesforce-skill
+/plugin install salesforce@enzoleonardi-claude-salesforce-skill
 ```
 
 ### Option 2: Manual download
 
 ```bash
 mkdir -p ~/.claude/skills/salesforce
-curl -sL https://raw.githubusercontent.com/enzoleonardi/claude-code-salesforce-skill/main/skills/salesforce/SKILL.md \
+curl -sL https://raw.githubusercontent.com/enzoleonardi/claude-salesforce-skill/main/skills/salesforce/SKILL.md \
   -o ~/.claude/skills/salesforce/SKILL.md
 ```
 
 ## What it does
 
-This skill teaches Claude Code how to:
+This skill teaches Claude Code and Cowork how to:
 
 | Category | Capabilities |
 |----------|-------------|
@@ -50,7 +50,7 @@ To bypass all warnings: `export SALESFORCE_SKIP_WARNINGS=true`
 
 ## Usage
 
-Once installed, Claude Code will automatically use this skill when you mention Salesforce-related tasks:
+Once installed, Claude Code and Cowork will automatically use this skill when you mention Salesforce-related tasks:
 
 ```
 > Query all closed-won opportunities from last year
@@ -79,7 +79,7 @@ The skill supports three methods (tried in order):
 ## Plugin Structure
 
 ```
-claude-code-salesforce-skill/
+claude-salesforce-skill/
 ├── .claude-plugin/
 │   ├── plugin.json          # Plugin manifest
 │   └── marketplace.json     # Marketplace definition

@@ -1,10 +1,10 @@
 ---
-description: Interact with a Salesforce org — authenticate, run SOQL queries, create/update/delete records, execute Apex, manage metadata, upload/download files, and monitor org limits via sf CLI and REST API.
+description: Claude Code and Cowork skill for Salesforce org interaction — authenticate, query, download and upload files.
 ---
 
-# Salesforce Org Interaction Skill
+# Salesforce Skill for Claude Code & Cowork
 
-Use this skill when Claude Code needs to interact with a Salesforce org: authenticate, query data, create/update/delete records, execute Apex code, explore metadata, upload/download files, or monitor org health.
+Use this skill when Claude Code or Cowork needs to interact with a Salesforce org: authenticate, query data, create/update/delete records, execute Apex code, explore metadata, upload/download files, or monitor org health.
 
 **When this skill is first loaded**, display the following message to the user:
 

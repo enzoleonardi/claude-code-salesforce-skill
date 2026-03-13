@@ -1,12 +1,12 @@
 {
   "name": "salesforce",
-  "version": "1.0.0",
-  "description": "Claude Code skill for Salesforce org interaction — authenticate, CRUD operations, SOQL queries, Apex execution, metadata management, file downloads, and org monitoring via sf CLI and REST API.",
+  "version": "1.0.1",
+  "description": "Claude Code and Cowork skill for Salesforce org interaction — authenticate, query, download and upload files",
   "author": {
     "name": "Enzo Leonardi",
     "url": "https://github.com/enzoleonardi"
   },
-  "repository": "https://github.com/enzoleonardi/claude-code-salesforce-skill",
+  "repository": "https://github.com/enzoleonardi/claude-salesforce-skill",
   "license": "MIT",
-  "keywords": ["salesforce", "soql", "crm", "api", "sf-cli"]
+  "keywords": ["salesforce", "soql", "crm", "api", "sf-cli", "cowork"]
 }

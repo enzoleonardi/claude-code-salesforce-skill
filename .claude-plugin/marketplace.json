@@ -1,23 +1,23 @@
 {
-  "name": "claude-code-salesforce-skill",
+  "name": "claude-salesforce-skill",
   "owner": {
     "name": "Enzo Leonardi"
   },
   "metadata": {
-    "description": "Salesforce integration skills for Claude Code",
-    "version": "1.0.0"
+    "description": "Salesforce Skill for Claude Code & Cowork",
+    "version": "1.0.1"
   },
   "plugins": [
     {
       "name": "salesforce",
       "source": "./",
-      "description": "Full Salesforce org interaction — auth, CRUD, SOQL, Apex, metadata, file downloads, and org monitoring with built-in safety warnings.",
-      "version": "1.0.0",
+      "description": "Claude Code and Cowork skill for Salesforce org interaction — authenticate, query, download and upload files",
+      "version": "1.0.1",
       "author": {
         "name": "Enzo Leonardi"
       },
       "license": "MIT",
-      "keywords": ["salesforce", "soql", "crm", "api", "sf-cli"],
+      "keywords": ["salesforce", "soql", "crm", "api", "sf-cli", "cowork"],
       "category": "integration"
     }
   ]
